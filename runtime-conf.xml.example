@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+
+<config>
+
+ <!-- Uncomment this if you have PEAR Log installed
+
+ <log>
+
+  <type>file</type>
+
+  <name>/path/to/prople.log</name>
+
+  <ident>propel-bookstore</ident>
+
+  <level>7</level>
+
+ </log>
+
+ -->
+
+ <propel>
+
+  <datasources default="CRM_TI">
+
+   <datasource id="CRM_TI"> <!-- this ID must match <database name=""> in schema.xml -->
+
+    <adapter>mysql</adapter> <!-- sqlite, mysql, myssql, oracle, or pgsql -->
+
+    <connection>
+
+		<dsn>mysql:host=localhost;port=8888;dbname=YOUR_DB_NAME;username=YOUR_DB_USER;password=YOUR_DB_PASSWD;</dsn>
+
+		<user>YOUR_DB_USER</user>
+
+		<password>YOUR_DB_PASSWD</password>
+
+    </connection>
+
+   </datasource>
+
+  </datasources>
+
+ </propel>
+
+</config>
+

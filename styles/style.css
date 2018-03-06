@@ -1,0 +1,329 @@
+/* CSS Document */
+
+/* Opmaak tekst */
+
+h1, strong, .kopje {
+	color: #357ea1;
+}
+
+.kopje {
+	font-weight: bold;
+}
+
+h2 {
+	color: #9fad36;
+}
+
+th {
+	color: #357ea1;
+	text-align: left;
+}
+
+a {
+	color: black;
+}
+
+.error {
+	color: red;
+}
+
+.warning {
+	font-weight: bold;
+}
+
+/* Opmaak tabellen */
+
+.overview {
+	width: 90%;
+}
+
+.overview tr {
+	margin: 2px 5px;
+	vertical-align: text-top;
+}
+
+.overview td {
+	padding: 2px 5px;
+	border: 1px solid #d5d5d5;
+}
+
+.overview table td {
+	border: 1px dotted #000000;
+}
+
+td.right-align {
+	text-align: right;
+}
+
+#entry_form table#chance_result {
+	width: 250px;
+}
+
+table#chance_result td.radio_button {
+	width: 20px;
+}
+
+table#chance_result input[type="radio"] {
+	vertical-align: middle;
+	margin-top: -1px;
+}
+
+td.resultaat_1 {
+	background-color: green;
+}
+
+td.resultaat_2 {
+	background-color: red;
+}
+
+td.resultaat_3 {
+	background-color: orange;
+}
+
+ul#export_actions_filter li ul li.too_low {
+	padding-top: 0px;
+}
+
+ul#export_actions_filter table {
+	border: 1px dashed #d5d5d5;
+}
+
+/* PAGINATION */
+
+td.pagination {
+	text-align: center;
+	vertical-align: middle;
+	color: #357ea1;
+	font-weight: bold;
+}
+
+td.pagination {
+	padding: 10px 0;
+}
+
+td.pagination a {
+	color: #357ea1;
+}
+
+td.pagination img {
+	vertical-align: middle;
+	padding-bottom: 2px;
+}
+
+td#virtuele_omzet_totals {
+	text-align: right;
+	margin-right: 10px;
+}
+
+tr.filters select {
+	max-width: 100px;
+}
+
+a.button {
+	cursor: pointer;
+	text-decoration:underline;
+}
+
+/* ENTRY FORM */
+
+#entry_form table {
+	width: 60%;
+}
+
+#entry_form select, #entry_form input, #entry_form textarea {
+	width: 100%;
+}
+
+#entry_form select.tijd {
+	width: 20%;
+}
+
+#entry_form input.tijd {
+	width: 50%;
+}
+
+.entry_table {
+	width: 60%;
+}
+
+.entry_table td {
+	padding: 5px;
+}
+
+.entry_table_chances {
+	width: 100%;
+}
+
+.dummy {
+	width: 50%;
+}
+
+.date_field {
+	min-width:70px;
+}
+
+#ui-datepicker-div.noCalendar .ui-datepicker-calendar {
+    display: none;
+    }
+
+/* Structuur */
+
+.listbox {
+	width: 200px;
+	border: 1px dashed #d5d5d5;
+}
+
+
+
+td {
+	padding: 3px;
+}
+
+html, body, div {
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	-webkit-box-sizing: content-box;	
+	margin: 0px auto;
+}
+body
+{
+	font-family: Century Gothic, Arial, Verdana, Sans-Serif;
+	font-size: 10pt;
+	line-height: 12pt;
+	height: 100%;
+}
+img.block {
+	display: block;
+}
+img {
+	border: 0;
+}
+
+#main_div {
+	height: auto !important;
+	position: relative;
+	min-width: 1000px;
+}
+
+#logo {
+	float: left;
+	height: 130px;
+	width: 255px;
+	background-image: url("../images/logo.jpg");
+}
+
+
+
+#content {
+	clear: both;
+	border: 1px dashed #d5d5d5;
+	margin: 40px;
+	padding: 20px;
+	top: 20px;
+	position: relative;
+}
+
+/* tabpagina */
+
+
+.ui-tabs .ui-tabs-hide {
+     display: none;
+}
+
+
+#tabs a {
+	color: #9fad36;
+}
+
+#tabs li {
+	display: inline;
+	font-size: 1.5em;
+	font-weight: bold;
+	
+	
+	padding: 10px 20px;
+	border: 1px solid #000000;
+	border-bottom: 0;
+	
+	background-color: #357ea1;
+}
+
+#tabs li.ui-tabs-selected {
+	background-color: #ffffff;
+}
+
+#tabs ul {
+	margin: 8px;
+	padding: 0 5px;
+}
+
+#tab_content {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+
+
+/* Suckerfish menu */
+
+#menu {
+	float: right;
+	height: 39px;
+	width: 750px;
+	background-image: url("../images/menu.jpg");
+
+	text-transform: uppercase;
+	
+}
+
+#menu a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#menu #menu_structure {
+	padding: 6px 0px 6px 75px;
+}
+
+
+#menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#menu ul li ul {
+	background-color: #357ea1;
+	border: 1px solid #9fad36;
+}
+
+#menu ul li ul li {
+	clear: both;
+}
+
+#menu li {
+	float: left;
+	position: relative;
+/*	width: 2em;*/
+	margin: 5px 20px;
+}
+
+#menu li ul {
+	display: none;
+	position: absolute; 
+	top: 1em;
+	left: 0;
+
+	width: 15em;
+}
+
+#menu li > ul {
+	top: auto;
+	left: auto;
+}
+
+#menu li:hover ul, li.over ul {
+	display: block; 
+}

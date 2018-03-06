@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>propel_runtime</name>
+ <channel>pear.propelorm.org</channel>
+ <summary>Runtime component of the Propel PHP object persistence layer</summary>
+ <description>Propel is an object persistence layer for PHP5 based on Apache Torque. This package provides the runtime engine that transparently handles object persistence and retrieval.</description>
+ <lead>
+  <name>Hans Lellelid</name>
+  <user>hans</user>
+  <email>hans@xmpl.org</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>David Zuelke</name>
+  <user>david</user>
+  <email>dz@bitxtender.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Francois Zaninotto</name>
+  <user>francois</user>
+  <email>fzaninotto@[gmail].com</email>
+  <active>yes</active>
+ </lead>
+ <date>2010-09-14</date>
+ <time>22:29:44</time>
+ <version>
+  <release>1.5.4</release>
+  <api>1.5.4</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+ <notes>
+This is a release of the 1.5 branch of the Propel Generator. 
+		See http://bit.ly/dskpCk for CHANGELOG.
+ </notes>
+ <contents>
+  <dir baseinstalldir="propel" name="/">
+   <file baseinstalldir="propel" md5sum="14660233f28903516cce9a538d58b84b" name="adapter/DBAdapter.php" role="php" />
+   <file baseinstalldir="propel" md5sum="fdcedb07ff20f8a8e9725ef27adf62e0" name="adapter/DBMSSQL.php" role="php" />
+   <file baseinstalldir="propel" md5sum="23feca56a61152ae982dd132c6e60902" name="adapter/DBMySQL.php" role="php" />
+   <file baseinstalldir="propel" md5sum="6894d5f62b28fb9f9dd481a328a6375c" name="adapter/DBNone.php" role="php" />
+   <file baseinstalldir="propel" md5sum="8739d1dd5cf26aec04a544fd867f8180" name="adapter/DBOracle.php" role="php" />
+   <file baseinstalldir="propel" md5sum="2c0ed8233e0a1851cb33ba7acbe397da" name="adapter/DBPostgres.php" role="php" />
+   <file baseinstalldir="propel" md5sum="4c295e8e7f4d9a16909b72dadd4424b3" name="adapter/DBSQLite.php" role="php" />
+   <file baseinstalldir="propel" md5sum="d116b165c463e0000f949c7c5621070d" name="adapter/DBSQLSRV.php" role="php" />
+   <file baseinstalldir="propel" md5sum="3e3ca25d0b6783a65de0181db9fb45ce" name="adapter/MSSQL/MssqlDebugPDO.php" role="php" />
+   <file baseinstalldir="propel" md5sum="f67bcb4eb643907ce8815fc8897bc519" name="adapter/MSSQL/MssqlPropelPDO.php" role="php" />
+   <file baseinstalldir="propel" md5sum="1c0e2e64b85b9e2ae942810ff21e1350" name="collection/PropelArrayCollection.php" role="php" />
+   <file baseinstalldir="propel" md5sum="bdab40cef9cd2d6683f7881826f3f868" name="collection/PropelCollection.php" role="php" />
+   <file baseinstalldir="propel" md5sum="6f938492f6201f6bd4dd443f757b9bfd" name="collection/PropelObjectCollection.php" role="php" />
+   <file baseinstalldir="propel" md5sum="6c1f12c10e5481bcd56f2e0f571d583f" name="collection/PropelOnDemandCollection.php" role="php" />
+   <file baseinstalldir="propel" md5sum="deaa2385f73f8a80fc90590a1aa4339a" name="collection/PropelOnDemandIterator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="34408138e82ff87bfa0fe5641cb5f151" name="config/PropelConfiguration.php" role="php" />
+   <file baseinstalldir="propel" md5sum="43ba26af20abe8784530ada5d0c72ec6" name="config/PropelConfigurationIterator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="ec87c3fc86d3e84e92e455db26a0a297" name="connection/DebugPDO.php" role="php" />
+   <file baseinstalldir="propel" md5sum="44af223e5d2677d23d3e18a053c1799d" name="connection/DebugPDOStatement.php" role="php" />
+   <file baseinstalldir="propel" md5sum="0d2de3433a36cecdc96af58253a2fe0b" name="connection/PropelPDO.php" role="php" />
+   <file baseinstalldir="propel" md5sum="facdb7afd05a9aa14bc16ebb43bc77c0" name="exception/PropelException.php" role="php" />
+   <file baseinstalldir="propel" md5sum="eaa7d6d8fe7258c71a83f4d69fd90780" name="formatter/ModelWith.php" role="php" />
+   <file baseinstalldir="propel" md5sum="d1b6c9bdb1cc6eed9c457928ad617470" name="formatter/PropelArrayFormatter.php" role="php" />
+   <file baseinstalldir="propel" md5sum="8623f3c1372224936f7a681bd984a354" name="formatter/PropelFormatter.php" role="php" />
+   <file baseinstalldir="propel" md5sum="ec1d23fee3319b3edbabf6cd9d71cb74" name="formatter/PropelObjectFormatter.php" role="php" />
+   <file baseinstalldir="propel" md5sum="bcc2768a2d0d5fc1b75f418641d3bde5" name="formatter/PropelOnDemandFormatter.php" role="php" />
+   <file baseinstalldir="propel" md5sum="5377ea0fe7079eef3819f309d3cdf5ae" name="formatter/PropelSimpleArrayFormatter.php" role="php" />
+   <file baseinstalldir="propel" md5sum="9832e831bc948940a9c2a66960b2eeac" name="formatter/PropelStatementFormatter.php" role="php" />
+   <file baseinstalldir="propel" md5sum="c2515c72d0274dd34d323df115902ddc" name="logger/BasicLogger.php" role="php" />
+   <file baseinstalldir="propel" md5sum="0b5b9fa99ed0b57daded4b1ede6d7c97" name="logger/MojaviLogAdapter.php" role="php" />
+   <file baseinstalldir="propel" md5sum="1dcc1a3f33516964c34961ea0203e5b3" name="map/ColumnMap.php" role="php" />
+   <file baseinstalldir="propel" md5sum="132d1a6bfaacc1442d0a49850b5d404c" name="map/DatabaseMap.php" role="php" />
+   <file baseinstalldir="propel" md5sum="b0f957591f825825f51e761828a92509" name="map/RelationMap.php" role="php" />
+   <file baseinstalldir="propel" md5sum="4ec9a24dd1f7cd246dd65ffb9963c4a5" name="map/TableMap.php" role="php" />
+   <file baseinstalldir="propel" md5sum="0baa0886035db5464f2d148da357d4a1" name="map/ValidatorMap.php" role="php" />
+   <file baseinstalldir="propel" md5sum="50ad8587dad9df2b46302de39e856c94" name="om/BaseObject.php" role="php" />
+   <file baseinstalldir="propel" md5sum="59767cda61d1be80dcae17a42b62b87e" name="om/NestedSetRecursiveIterator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="eb0ce7f1a62b14ebb414175008097fb6" name="om/NodeObject.php" role="php" />
+   <file baseinstalldir="propel" md5sum="e0feedd5516858b4e4f27d9391bd810b" name="om/Persistent.php" role="php" />
+   <file baseinstalldir="propel" md5sum="b36e180d6c2109c48dde49d28af9ebec" name="om/PreOrderNodeIterator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="7ef38cda4a859a5180e495ca5e2e547e" name="query/Criteria.php" role="php" />
+   <file baseinstalldir="propel" md5sum="cb3548fb8eb29343884fccc095461393" name="query/Criterion.php" role="php" />
+   <file baseinstalldir="propel" md5sum="987e72e7dc9fd20b51d8d21d714071bf" name="query/CriterionIterator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="fba46ed7167d7ed5b49dba3ef782c09d" name="query/Join.php" role="php" />
+   <file baseinstalldir="propel" md5sum="d00bd51c0b442776c69164f3be150c96" name="query/ModelCriteria.php" role="php" />
+   <file baseinstalldir="propel" md5sum="4128c91915b3ad2550fd0f8fab77ab56" name="query/ModelCriterion.php" role="php" />
+   <file baseinstalldir="propel" md5sum="824b1b1b4bba36982bc24027591de3a3" name="query/ModelJoin.php" role="php" />
+   <file baseinstalldir="propel" md5sum="9313c26470037811b1661ae1ec569f30" name="query/PropelQuery.php" role="php" />
+   <file baseinstalldir="propel" md5sum="34fc23cb798870c331edb836da497f1a" name="util/BasePeer.php" role="php" />
+   <file baseinstalldir="propel" md5sum="1a0f965e6dfb6a48c58e880996606240" name="util/NodePeer.php" role="php" />
+   <file baseinstalldir="propel" md5sum="f1e0ff65975b5b23c6b1e5a7c8e39f65" name="util/PropelAutoloader.php" role="php" />
+   <file baseinstalldir="propel" md5sum="f3b13171876ffd3340c66d96e23cb091" name="util/PropelColumnTypes.php" role="php" />
+   <file baseinstalldir="propel" md5sum="a0b947bad14c57a855d8d36a67a9b8b7" name="util/PropelConditionalProxy.php" role="php" />
+   <file baseinstalldir="propel" md5sum="cfd217b9677ab9aff972e972233b5d36" name="util/PropelDateTime.php" role="php" />
+   <file baseinstalldir="propel" md5sum="4f67259b021dac5acf4387ea2141c94f" name="util/PropelModelPager.php" role="php" />
+   <file baseinstalldir="propel" md5sum="683df01f3ee87e9c56ebf693d2d3422e" name="util/PropelPager.php" role="php" />
+   <file baseinstalldir="propel" md5sum="31bbc28d1f6259e3fd672e506611af59" name="validator/BasicValidator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="e87a2225a669ab6a771602028df4e598" name="validator/MatchValidator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="e12a805eaa75584abeec92e079fbce8f" name="validator/MaxLengthValidator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="7fa02c180afb54865d00571a9d0731ca" name="validator/MaxValueValidator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="bf8cba5b1ab8b2c3b67ba7785c745a92" name="validator/MinLengthValidator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="c4ba4167d48a49b1ecb8d93054b4b2de" name="validator/MinValueValidator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="c5797cbd658d529a22b8a8363e531d89" name="validator/NotMatchValidator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="dee52a7b6497f1fb7551bdcb8ffdef92" name="validator/RequiredValidator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="0fab50feafa6de84714e8fdbbc2f6221" name="validator/TypeValidator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="a208fa28c0f350bd9311ff9cfd8e81e6" name="validator/UniqueValidator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="53f81fb84926c11b7f9ebdb9cbaa52fb" name="validator/ValidationFailed.php" role="php" />
+   <file baseinstalldir="propel" md5sum="a5c603c493f29ac4e21f7c2b44fcc734" name="validator/ValidValuesValidator.php" role="php" />
+   <file baseinstalldir="propel" md5sum="4652a0458ddeeb2a1eb1a1df463ee05c" name="Propel.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.2.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+   <extension>
+    <name>pdo</name>
+   </extension>
+   <extension>
+    <name>spl</name>
+   </extension>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.5.4</release>
+    <api>1.5.4</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2010-09-14</date>
+   <license uri="http://www.opensource.org/licenses/mit-license.php">MIT</license>
+   <notes>
+This is a release of the 1.5 branch of the Propel Generator. 
+		See http://bit.ly/dskpCk for CHANGELOG.
+   </notes>
+  </release>
+ </changelog>
+</package>

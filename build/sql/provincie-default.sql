@@ -1,0 +1,12 @@
+INSERT INTO provincie(naam) VALUES ("Groningen");
+INSERT INTO provincie(naam) VALUES ("Friesland");
+INSERT INTO provincie(naam) VALUES ("Drenthe");
+INSERT INTO provincie(naam) VALUES ("Gelderland");
+INSERT INTO provincie(naam) VALUES ("Flevoland");
+INSERT INTO provincie(naam) VALUES ("Noord-Holland");
+INSERT INTO provincie(naam) VALUES ("Zuid-Holland");
+INSERT INTO provincie(naam) VALUES ("Utrecht");
+INSERT INTO provincie(naam) VALUES ("Overijssel");
+INSERT INTO provincie(naam) VALUES ("Noord-Brabant");
+INSERT INTO provincie(naam) VALUES ("Zeeland");
+INSERT INTO provincie(naam) VALUES ("Limburg");

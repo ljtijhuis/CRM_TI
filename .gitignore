@@ -1,0 +1,20 @@
+# Mac OS
+.DS_Store
+
+# Legacy hosting files and client specifics
+htpasswd.backup
+htaccess.backup
+.svn
+import
+images/client_specific
+
+# Build files
+templates_c/*.php
+
+# Config files
+runtime-conf.xml
+runtime-conf.xml.live
+runtime-conf.xml.test
+build/conf/CRM_TI-conf.php
+build/conf/CRM_TI-conf.php.live
+build/conf/CRM_TI-conf.php.test
